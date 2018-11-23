@@ -1,0 +1,50 @@
+{
+  "name": "currencyfair",
+  "version": "1.0.0",
+  "description": "CurrencyFair test",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "test": "jest",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "Leszek Kasperczyk",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^23.6.0",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-styled-components": "^1.8.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.1",
+    "enzyme": "^3.7.0",
+    "jest": "^23.6.0",
+    "react-hot-loader": "^4.3.11",
+    "react-redux": "^5.1.1",
+    "react-test-renderer": "^16.6.3",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "style-loader": "^0.23.1",
+    "styled-components": "^4.1.1",
+    "svg-inline-loader": "^0.8.0",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-core": "7.0.0-bridge.0",
+    "enzyme-adapter-react-16": "^1.7.0",
+    "punycode": "^2.1.1",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-fontawesome": "^1.6.1",
+    "react-inlinesvg": "^0.8.2",
+    "redux-test-utils": "^0.3.0",
+    "styled-reset": "^1.6.1"
+  }
+}
