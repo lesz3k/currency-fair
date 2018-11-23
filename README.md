@@ -9,8 +9,8 @@ You can also preview the app after cloning / downloading the repo, and then runn
 
 ## Installation
 
-- `git clone git@github.com:lesz3k/currencyfair.git`
-- cd currencyfair
+- `git clone git@github.com:lesz3k/currency-fair.git`
+- cd currency-fair
 - npm install
 - npm start
 - visit `http://localhost:8080/`
